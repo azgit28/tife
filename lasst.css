@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background-color: white;
     width: 100%;
 }
 .sync {
@@ -16,12 +16,17 @@ body {
 }
 .syncwal {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: white;
+}
+.pro {
+    display: flex !important;
+    justify-content: center !important;
 }
 .syncwal h1 {
-    color: white;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -29,9 +34,10 @@ body {
 /* .syncwal>img {
     width: 20%;
 } */
-.sync>img {
+.syncwal>img {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     /* place-items: center;
     align-items: center; */
     font-size: 1rem;
